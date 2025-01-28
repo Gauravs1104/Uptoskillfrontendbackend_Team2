@@ -1,0 +1,235 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navigation nav ul li {
+            display: inline-block;
+            margin: 0px 25px 5px 25px;
+        }
+
+        .navigation nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        header {
+            background-color: #1b2330;
+            color: white;
+            padding: 10px 20px;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .contact-info span {
+            display: inline-block;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #ff5722;
+        }
+        .navigation {
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .logo img {
+            height: 50px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 30px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .menu a:hover {
+            color: #ff5722;
+        }
+
+        .auth-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .auth-buttons .button {
+            padding: 5px 15px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+        }
+
+        .auth-buttons .employer {
+            background-color: #ff5722;
+        }
+
+        .auth-buttons .candidate {
+            background-color: orange;
+        }
+
+        .icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .icons i {
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .icons i:hover {
+            color: #ff5722;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        #img {
+            height: 200px;
+            width: 355px;
+            border: grey solid 1px;
+            border-radius: 50px;
+            margin: 10px 0;
+        }
+
+        .blog-post {
+            background-color: white;
+            height: auto;
+            width: 355px;
+            padding: 15px;
+            border: rgb(230, 229, 229) 1px solid;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .blog-post h2 {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .blog-post p {
+            margin: 5px 0;
+            text-align: center;
+        }
+
+        .blog-post a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .blog-post a:hover {
+            text-decoration: underline;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        footer {
+            background-color: #1b2330;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-column {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px 20px;
+        }
+
+        .footer-column h3 {
+            color: #ffffff;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .footer-column p,
+        .footer-column a {
+            color: #cccccc;
+            font-size: 14px;
+            line-height: 1.8;
+            text-decoration: none;
+        }
+
+        .footer-column p span {
+            color: #ff5722;
+            font-weight: bold;
+        }
+
+        .footer-column a:hover {
+            text-decoration: underline;
+            color: #ffffff;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: white;
+            margin-right: 10px;
+            font-size: 18px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .social-icons a:hover {
+            color: #ff5722;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid #444;
+            padding-top: 15px;
+            font-size: 14px;
+            color: #cccccc;
+        }
+
+        .footer-bottom span {
+            color: #ff5722;
+        }
+        
+    
